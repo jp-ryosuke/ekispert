@@ -7,9 +7,9 @@ request.get({
     headers: {'Content-type': 'application/json'},
     qs: {
         // GETのURLの後に付く ?hoge=hugaの部分
-        key : '',   //API key
+        key : '',               //API key
         from : '',              //始点の駅
-        to : '',              //目的の駅
+        to : '',                //目的の駅
     },
     json: true
 }, function(err, req, data){
